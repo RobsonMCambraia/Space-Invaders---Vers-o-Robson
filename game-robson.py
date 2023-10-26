@@ -143,7 +143,7 @@ while i < 10:
             
     for enemy2 in enemies2:
         x = enemy2.xcor()
-        x += enemyspeed
+        x -= enemyspeed
         enemy2.setx(x)
 
         # Verifique se o inimigo atingiu a borda
